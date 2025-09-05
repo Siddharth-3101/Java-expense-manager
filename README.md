@@ -5,37 +5,37 @@ This project allows employees to submit expenses, managers to approve/reject the
 
 🚀 Features
 
-Employee & Manager Profiles
+    Employee & Manager Profiles
 
-Employees can submit expenses with/without attachments.
+    Employees can submit expenses with/without attachments.
 
-Managers have approval limits and can approve/reject expenses.
+    Managers have approval limits and can approve/reject expenses.
 
-Expense Lifecycle
+    Expense Lifecycle
 
-Submit → Approve/Reject → Reimburse
+    Submit → Approve/Reject → Reimburse
 
-Supports multiple expense types (e.g., Travel, Meals).
+    Supports multiple expense types (e.g., Travel, Meals).
 
-Reports & Tracking
+    Reports & Tracking
 
-List expenses by status (Submitted, Approved, Reimbursed).
+    List expenses by status (Submitted, Approved, Reimbursed).
 
-Calculate total reimbursements per employee.
+    Calculate total reimbursements per employee.
 
-Monthly summaries (extendable).
+    Monthly summaries (extendable).
 
 🛠️ OOP Concepts Demonstrated
 
-Inheritance → Manager extends Employee.
+    Inheritance → Manager extends Employee.
 
-Method Overloading → submit() with/without attachments.
+    Method Overloading → submit() with/without attachments.
 
-Method Overriding → Custom approval logic in Manager.
+    Method Overriding → Custom approval logic in Manager.
 
-Polymorphism → Handle Employee and Manager using base class references.
+    Polymorphism → Handle Employee and Manager using base class references.
 
-Encapsulation → Restricted direct edits to sensitive fields like expense status.
+    Encapsulation → Restricted direct edits to sensitive fields like expense status.
 
 📂 Project Structure
 ├── Employee.java
@@ -46,11 +46,11 @@ Encapsulation → Restricted direct edits to sensitive fields like expense statu
 
 💻 How to Run
 
-Clone the repo:
+    Clone the repo:
 
-git clone https://github.com/your-username/expense-management-java.git
+        git clone https://github.com/your-username/expense-management-java.git
 
 
-Open the project in Eclipse IDE (or any Java IDE).
+    Open the project in Eclipse IDE (or any Java IDE).
 
-Run ExpenseAppMain.java to test the system.
+        Run ExpenseAppMain.java to test the system.
